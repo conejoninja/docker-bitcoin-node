@@ -5,7 +5,7 @@ Docker container for a bitcoin node, includes bitcoind and a bootstrap script fo
 
 To run it:
 
-    $ docker run -d -v /path/to/data/:/root/.bitcoin --name bitcoind -p 8833:8833 -p 8832:8832 conejo/bitcoin-node
+    $ docker run -d -v /path/to/data/:/root/.bitcoin --name bitcoind -p 8333:8333 -p 8332:8332 conejo/bitcoin-node
 
 
 ### Notes
